@@ -1,0 +1,3 @@
+Bu pardusta CPU RAM ve disk durumunu gösteren basit bir terminal uygulaması olcak
+Python3 ile yazılcak ve colorama, pyfiglet kütüphanelerini bulundurcak
+Terminal için basit olcak
