@@ -1,21 +1,8 @@
 #!/usr/bin/env python3
-import importlib.util
 import os
 import shutil
-import subprocess
-import sys
 import time
 from pathlib import Path
-
-
-def install_package(package):
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "--user", package])
-
-
-for package in ("colorama", "pyfiglet"):
-    if importlib.util.find_spec(package) is None:
-        print(f"{package} bulunamadi, yukleniyor...")
-        install_package(package)
 
 
 from colorama import Fore, Style, init
